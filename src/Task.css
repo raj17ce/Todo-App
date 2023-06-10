@@ -1,0 +1,29 @@
+.task-card {
+  background-color: #20212d;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1rem;
+  margin-block: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.task-card svg {
+  height: 25px;
+  margin-inline: 0.4rem;
+  margin-block: auto;
+  fill: #61dafb;
+  font-family: 900;
+  cursor: pointer;
+}
+
+.task-card.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+}
